@@ -35,3 +35,5 @@ docker rmi <imageName> : Supprime l'image
 Pour set le port:
 
 sudo docker run -p 8080:5000 pythonimage:latest
+
+docker inspect <containerName>
