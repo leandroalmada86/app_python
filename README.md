@@ -19,3 +19,19 @@ sur ce fichier requirements.txt, que fait il, pourquoi est il utile?
 
 ๏ (BONUS) se renseigner sur le micro-framework web Flask et personnaliser
 l’application
+
+
+Docker:
+
+docker build <pathFolder> -t <imageName> : Build le conteneur
+docker run <imageName> : Execute l'image 
+docker ps -a : Listes des conteneurs connu
+docker start <containerName> : Démarre le containeur
+docker stop <containerName> : Arrete le containeur
+docker rm <containerName> : Supprime le containeur
+docker rmi <imageName> : Supprime l'image 
+
+
+Pour set le port:
+
+sudo docker run -p 8080:5000 pythonimage:latest
